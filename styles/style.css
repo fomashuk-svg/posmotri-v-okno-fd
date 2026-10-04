@@ -242,6 +242,7 @@ html {
 }
 
 .button {
+  block-size: 34px;
   border: 1px solid #fff;
   background-color: transparent;
   color: inherit;
@@ -270,12 +271,11 @@ html {
 .search-form__submit-button {
   align-self: flex-end;
   inline-size: 194px;
-  block-size: 34px;
 }
 
 .more-button {
+  flex-shrink: 0;
   inline-size: 100%;
-  block-size: 34px;
 }
 
 h1,
